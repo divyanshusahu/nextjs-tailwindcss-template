@@ -1,1 +1,10 @@
-module.exports = { purge: ["./pages/**/*.js", "./components/**/*.js"] };
+module.exports = {
+  content: [
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
